@@ -1,0 +1,50 @@
+/* Write your CSS here */
+.container {
+  background-color: blueviolet;
+  margin: 60px;
+  border-radius: 15px;
+  padding: 30px;
+  width: 50vw;
+}
+.row-container {
+  display: flex;
+  flex-direction: row;
+}
+.latter {
+  font-family: 'roboto';
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  color: black;
+}
+.profile {
+  margin-top: 10px;
+  background-color: aqua;
+  width: 60px;
+  height: 60px;
+  border-radius: 25px;
+}
+.user-name {
+  color: white;
+  font-family: 'Roboto';
+  padding-left: 30px;
+}
+.balance-container {
+  display: flex;
+  justify-content: space-around;
+  font-family: 'roboto';
+}
+.rupees {
+  font-size: 12px;
+}
+.text {
+  font-size: larger;
+  color: #382f5a;
+}
+.withdraw {
+  font-size: larger;
+
+  color: white;
+  font-family: 'roboto';
+}
